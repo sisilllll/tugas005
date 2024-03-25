@@ -19,9 +19,9 @@ class DatabaseSeeder extends Seeder
          \App\Models\User::factory(10)->create();
 
          \App\Models\User::factory()->create([
-             'name' => 'Nia',
-             'email' => 'Septiani.N@mail.com',
-             'password' => bcrypt('nia3321'),
+             'name' => 'Sisil',
+             'email' => 'Sisil@gmail.com',
+             'password' => bcrypt('sisilia53663'),
          ]);
 
          DB::table('kategori')->insert([
